@@ -9,7 +9,9 @@ public class UtilsService {
     
     public String removeKeyJsonString(){
 
-        String stringToRemoveKey="";
+        String stringToRemoveKey="{\r\n" + //
+                        "    \"IDU\":\"xyx\"\r\n" + //
+                        "}";
 
         String keysToRemove[] = {"IDU" };
 
